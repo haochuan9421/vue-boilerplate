@@ -1,0 +1,19 @@
+$color-theme:#42B983;
+$color-text:#2C3E50;
+$color-bg:#FCFDFE;
+$color-border:#E4E7ED;
+
+$color-success: #67C23A;
+$color-warning: #E6A23C;
+$color-danger: #F56C6C;
+$color-info: #909399;
+
+$color-success-light: mix(#FFFFFF, $color-success, 80%);
+$color-warning-light: mix(#FFFFFF, $color-warning, 80%);
+$color-danger-light: mix(#FFFFFF, $color-danger, 80%);
+$color-info-light: mix(#FFFFFF, $color-info, 80%);
+
+$color-success-lighter: mix(#FFFFFF, $color-success, 90%);
+$color-warning-lighter: mix(#FFFFFF, $color-warning, 90%);
+$color-danger-lighter: mix(#FFFFFF, $color-danger, 90%);
+$color-info-lighter: mix(#FFFFFF, $color-info, 90%);

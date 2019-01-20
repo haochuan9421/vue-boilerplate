@@ -1,0 +1,51 @@
+// 美化滚动条
+@mixin scrollbar($width: 8px, $color: rgba(51, 51, 51, .2), $bg: #e5e5e5) {
+  &::-webkit-scrollbar {
+    width: $width;
+
+    :horizontal {
+      height: $width;
+    }
+  }
+
+  &::-webkit-scrollbar-track {
+    background-color: $bg;
+    border-radius: 2em;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: $color;
+    border-radius: 2em;
+
+    &:hover {
+      background: rgba(51, 51, 51, .4);
+    }
+  }
+
+  &::-webkit-scrollbar-button {
+    display: none
+  }
+
+  &::-webkit-scrollbar-corner {
+    display: none
+  }
+
+  &::-webkit-scrollbar-track-piece {
+    background: 0 0
+  }
+}
+
+// 文本单行超出省略号
+@mixin no-wrap {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+// 文本多行超出省略号
+@mixin no-wrap-multi($count: 3) {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: $count;
+  overflow: hidden;
+}

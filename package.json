@@ -1,0 +1,70 @@
+{
+  "name": "vue-boilerplate",
+  "version": "1.0.0",
+  "description": "用 webpack 从零搭建属于自己的 Vue 项目脚手架",
+  "private": true,
+  "scripts": {
+    "dev": "webpack-dev-server --progress --config webpack/dev.js",
+    "build": "node webpack/build.js",
+    "start": "node server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HaoChuan9421/vue-boilerplate.git"
+  },
+  "keywords": [
+    "vue",
+    "vue-cli",
+    "boilerplate"
+  ],
+  "author": "郑昊川 <hc199421@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HaoChuan9421/vue-boilerplate/issues"
+  },
+  "homepage": "https://github.com/HaoChuan9421/vue-boilerplate#readme",
+  "devDependencies": {
+    "autoprefixer": "^9.4.3",
+    "babel-eslint": "^10.0.1",
+    "babel-preset-vue2": "^1.0.1",
+    "cache-loader": "^1.2.5",
+    "chalk": "^2.4.1",
+    "compression": "^1.7.3",
+    "compression-webpack-plugin": "^2.0.0",
+    "connect-history-api-fallback": "^1.5.0",
+    "copy-webpack-plugin": "^4.6.0",
+    "css-loader": "^2.0.1",
+    "eslint": "^5.10.0",
+    "eslint-loader": "^2.1.1",
+    "eslint-plugin-vue": "^5.0.0",
+    "express": "^4.16.4",
+    "file-loader": "^2.0.0",
+    "friendly-errors-webpack-plugin": "^1.7.0",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.5.0",
+    "mockjs": "^1.0.1-beta3",
+    "node-sass": "^4.10.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.1",
+    "ora": "^3.0.0",
+    "portfinder": "^1.0.20",
+    "postcss-loader": "^3.0.0",
+    "rimraf": "^2.6.2",
+    "sass-loader": "^7.1.0",
+    "thread-loader": "^1.2.0",
+    "uglifyjs-webpack-plugin": "^2.0.1",
+    "url-loader": "^1.1.2",
+    "vue-loader": "^15.4.2",
+    "vue-style-loader": "^4.1.2",
+    "vue-template-compiler": "^2.5.21",
+    "webpack": "^4.27.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10",
+    "webpack-merge": "^4.1.4"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "vue": "^2.5.21",
+    "vue-router": "^3.0.2",
+    "vuex": "^3.0.1"
+  }
+}
